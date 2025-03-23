@@ -1,7 +1,7 @@
 use solicitudempleo;
 
 DELIMITER //
-    -- ESTE PROCEDIMEIENTO ACTUALIZA LOS DATOS PERSONALES.
+    -- ESTE PROCEDIMIENTO ACTUALIZA LOS DATOS PERSONALES.
 -- Uso: CALL ActualizarDatosPersonales(id, 'nuevo_telefono', 'nuevo_movil');
 CREATE PROCEDURE ActualizarDatosPersonales(IN p_id INT, IN p_telefono VARCHAR(20), IN p_movil VARCHAR(20))
 BEGIN
